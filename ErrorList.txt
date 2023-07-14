@@ -1,0 +1,5 @@
+1. При запуске проекта которого клонировал с GitHub или в .exe файле падало на ошибке загрзки сборок через рефлексию, помогло добавление 	
+<loadFromRemoteSources enabled="true" /> в App.config
+
+2. в add команде не было самого добавления в список
+3. namespace у EmployeesViewerPlugin для Plugin.cs был = EmployeesLoaderPlugin 
